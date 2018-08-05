@@ -6,7 +6,7 @@ import pdb
 import sys, ast
 from sklearn.utils.extmath import softmax
 
-def
+def relu(Z):
     A = np.maximum(0,Z)
     cache = {}
     cache["Z"] = Z
